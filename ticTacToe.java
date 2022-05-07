@@ -27,7 +27,7 @@ public class Main {
         System.out.print("| " + gameState[2][0] + " " + gameState[2][1] + " " + gameState[2][2]+ " ");
         System.out.println("|");
         System.out.println("---------");
-
+        //variables to keep the state
         int countX = 0;
         int countO = 0;
         int countEmpty = 0;
