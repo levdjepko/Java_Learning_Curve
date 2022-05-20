@@ -1,7 +1,7 @@
 import java.util.Scanner;
 class Main {
     public static void main(String[] args) {
-        // put your code here
+        // find the largest element in a 2Dd-array
         Scanner scanner = new Scanner(System.in);
         int n = scanner.nextInt();
         int m = scanner.nextInt();
