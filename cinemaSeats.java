@@ -12,18 +12,18 @@ class Main {
 
         int n = scanner.nextInt();
         int m = scanner.nextInt();
-        //array to hold the seats' availability
+        // 2D array to hold the seats' availability
         int[][] seatsInCinema = new int[n][m];
 
-        //fill the array with available seats
+        // fill the array with available seats
         for (int i = 0; i < n; i++) {
             for (int j = 0; j < m; j++) {
                 seatsInCinema[i][j] = scanner.nextInt();
             }
         }
         int requiredSeats = scanner.nextInt();
-        //we need ^ this many seats in one row
-        //now iterate over every row and see if we can find seats
+        // we need this ^ many seats in one row
+        // now iterate over every row and see if we can find seats
         int haveSeats = 0;
         int foundRow = -1;
         for (int i = 0; i < n && foundRow < 0; i++) {
