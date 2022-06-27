@@ -5,7 +5,7 @@ class Main {
         Scanner scanner = new Scanner(System.in);
         //_____________________________________________________________________________________
         // Imagine a chocolate bar. Remember how it is usually split into smaller bits by a special grid?
-        //Now think of chocolate as an N x M rectangle divided into little segments:
+        // Now think of chocolate as an N x M rectangle divided into little segments:
         // N segments in length and M in width. Each segment is 1x1 and unbreakable.
         // Find out whether it is possible to break
         // off exactly K segments from the chocolate with a
@@ -15,7 +15,7 @@ class Main {
         int M = scanner.nextInt();
         int K = scanner.nextInt();
         /* N vertical chocolate bars
-         and M horizontal:
+           and M horizontal:
          ____M_____
         N| | | | |
          | | | | |
