@@ -18,7 +18,7 @@ class Scratch {
         // common_elements(array1C, array2C) should return [] (an empty array).
     }
 
-    // Implement your solution below.
+    
     // NOTE: Remember to return an Integer array, not an int array.
     public static Integer[] commonElements(int[] array1, int[] array2) {
 
