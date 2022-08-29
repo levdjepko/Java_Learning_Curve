@@ -4,8 +4,7 @@ class Scratch {
     public static void main(String[] args) {
         int[] A = {-1, -2, 2, 2, 3};
         Arrays.sort(A);
-        //System.out.println(Arrays.toString(A));
-        //System.out.println(A.length);
+        
         int smallest = A[0];
 
         int totalCandy = 0;
