@@ -3,7 +3,6 @@ import java.util.*;
 class Scratch {
     public static void main(String[] args) {
         // NOTE: The following input values are used for testing your solution.
-
         int[] array1A = {1, 3, 4, 6, 7, 9};
         int[] array2A = {1, 2, 4, 5, 9, 10};
         // commonElements(array1A, array2A) should return [1, 4, 9] (an array).
@@ -14,8 +13,7 @@ class Scratch {
         System.out.println(Arrays.toString(commonElements(array1B, array2B)));
         int[] array1C = {0, 1, 2, 3, 4, 5};
         int[] array2C = {6, 7, 8, 9, 10, 11};
-        System.out.println(Arrays.toString(commonElements(array1C, array2C)));
-        // common_elements(array1C, array2C) should return [] (an empty array).
+        System.out.println(Arrays.toString(commonElements(array1C, array2C)));        
     }
 
     
