@@ -7,7 +7,8 @@ class Main {
         // the number 1 means that the ticket for this place is already sold,
         // and the number 0 means that the place is available.
         // You want to buy k tickets to neighboring seats in the same row.
-        // Find whether it can be done.
+        // Find whether it can be done
+        
         Scanner scanner = new Scanner(System.in);
 
         int n = scanner.nextInt();
