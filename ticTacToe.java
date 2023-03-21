@@ -18,7 +18,7 @@ public class Main {
         int countEmpty = 0;
 
         //expecting the coordinates from 1 to 3
-        System.out.println("Enter the coordinates: ");
+
         int inputRow = -1;
         int inputColumn = -1;
         int currentPlayer = 1;
@@ -26,8 +26,17 @@ public class Main {
         boolean gameFinished = false;
 
         while (!gameFinished) {
+            System.out.println("Enter the coordinates: ");
+            System.out.print("Current player: ");
+            if (currentPlayer == 1){
+                System.out.println("X");
+            } else {
+                System.out.println("O");
+            }
             try {
+                System.out.print("row: ");
                 inputRow = scanner.nextInt();
+                System.out.print("column: ");
                 inputColumn = scanner.nextInt();
             } catch (Exception e) {
                 System.out.println("You should enter numbers!");
@@ -78,8 +87,8 @@ public class Main {
                     gameState[0][2] == 'X' && gameState[1][2] == 'X' && gameState[2][2] == 'X' ||
                     gameState[0][0] == 'X' && gameState[1][1] == 'X' && gameState[2][2] == 'X' ||
                     gameState[2][0] == 'X' && gameState[1][1] == 'X' && gameState[0][2] == 'X') {
-                                System.out.println("X wins");
-                                gameFinished = true;
+                System.out.println("X wins");
+                gameFinished = true;
             }
             else if (gameState[0][0] == 'O' && gameState[0][1] == 'O' && gameState[0][2] == 'O' ||
                     gameState[1][0] == 'O' && gameState[1][1] == 'O' && gameState[1][2] == 'O' ||
@@ -89,8 +98,8 @@ public class Main {
                     gameState[0][2] == 'O' && gameState[1][2] == 'O' && gameState[2][2] == 'O' ||
                     gameState[0][0] == 'O' && gameState[1][1] == 'O' && gameState[2][2] == 'O' ||
                     gameState[2][0] == 'O' && gameState[1][1] == 'O' && gameState[0][2] == 'O') {
-                                System.out.println("O wins");
-                                gameFinished = true;
+                System.out.println("O wins");
+                gameFinished = true;
             }
             else if (countEmpty == 0) {
                 System.out.println("Draw");
@@ -98,8 +107,7 @@ public class Main {
             }
         }
 
-        }
-
+    }
 
 
     private static void outputGameState(char[][] gameState) {
