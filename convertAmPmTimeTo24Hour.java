@@ -1,4 +1,5 @@
 private static String timeConversion(String input) {
+        // converting the AM PM time to standard (military) format
         int hour = Integer.parseInt(input.substring(0, 2));
         String hourString = input.substring(0, 2);
         String minutes = input.substring(3, 5);
