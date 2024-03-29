@@ -7,12 +7,13 @@ class Main {
         // and two numbers n and m. The program must check if n and m 
         // occur next to each other in the array (in any order).
         //
-        //Input data format
+        // * Input data format *
         //
-        //The first line contains the size of an array.
-        //The second line contains elements of the array.
-        //The third line contains two integer numbers n and m.
-        //All numbers in the same line are separated by the space character.
+        // The first line contains the size of an array.
+        // The second line contains elements of the array.
+        // The third line contains two integer numbers n and m.
+        // All numbers in the same line are separated by the space character.
+        
         Scanner scanner = new Scanner(System.in);
         boolean result = false;
         int size = scanner.nextInt();
@@ -23,7 +24,7 @@ class Main {
         }
         int n = scanner.nextInt();
         int m = scanner.nextInt();
-        for(int j = 1; j < size - 1; j++) {
+        for (int j = 1; j < size - 1; j++) {
             if (array[j] == n && (array[j+1] == m || array[j-1] == m)){
                 result = true;
             }
