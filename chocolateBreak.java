@@ -3,7 +3,7 @@ import java.util.Scanner;
 class Main {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
-        //_____________________________________________________________________________________
+        //_____________________________________________________________________________
         // Imagine a chocolate bar. Remember how it is usually split into smaller bits by a special grid?
         // Now think of chocolate as an N x M rectangle divided into little segments:
         // N segments in length and M in width. Each segment is 1x1 and unbreakable.
