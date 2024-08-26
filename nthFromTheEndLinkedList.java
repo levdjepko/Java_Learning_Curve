@@ -17,7 +17,7 @@ class Node {
 
 class Scratch {
     public static void main(String[] args) {
-        // NOTE: The following input values will be used for testing your solution.
+        // NOTE: The following input values will be used for testing the solution.
         Node current = new Node(1, null);
         for (int i = 2; i < 8; i++) {
             current = new Node(i, current);
@@ -44,7 +44,7 @@ class Scratch {
     }
 
 
-    // Implement your function below.
+    // the function is below
     public static Node nthFromLast(Node head, int n) {
         // declare two pointers
         Node left = head;
