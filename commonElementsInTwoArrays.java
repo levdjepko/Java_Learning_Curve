@@ -1,4 +1,7 @@
 import java.util.*;
+/*
+Find common elements between two provided arrays and return them
+*/
 
 class Scratch {
     public static void main(String[] args) {
@@ -27,7 +30,7 @@ class Scratch {
         }
         // then loop over another array and check all the matches
         for (int i = 0; i < array2.length; i++) {
-            if(dict.contains(array2[i])) {
+            if (dict.contains(array2[i])) {
                 resultSet.add(array2[i]);
             }
         }
