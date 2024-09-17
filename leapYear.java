@@ -3,6 +3,7 @@ import java.util.Scanner;
 class Main {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
+        
         /* Find whether the given year is a leap year.
         Just a reminder: leap years are those years in which the
         year’s number is either divisible by 4, but not divisible by 100,
