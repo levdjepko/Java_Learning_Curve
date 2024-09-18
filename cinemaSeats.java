@@ -2,12 +2,14 @@ import java.util.Scanner;
 
 class Main {
     public static void main(String[] args) {
+        // ------------------------
         // The cinema has n rows, each row consists of m seats (n and m do not exceed 20).
         // A two-dimensional matrix stores the information on the sold tickets:
         // the number 1 means that the ticket for this place is already sold,
         // and the number 0 means that the place is available.
         // You want to buy k tickets to neighboring seats in the same row.
         // Find whether it can be done or not
+        // ------------------------
         
         Scanner scanner = new Scanner(System.in);
 
@@ -24,7 +26,7 @@ class Main {
         }
         int requiredSeats = scanner.nextInt();
         // we need this ^ many seats in one row
-        // now iterate over every row and see if we can find seats
+        // Now, iterate over every row and see if we can find seats
         int haveSeats = 0;
         int foundRow = -1;
         for (int i = 0; i < n && foundRow < 0; i++) {
