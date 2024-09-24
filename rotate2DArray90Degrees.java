@@ -2,22 +2,22 @@ import java.util.Scanner;
 
 class Main {
     public static void main(String[] args) {
+        
         // Given a rectangle array n×m in size.
         // Rotate it by 90 degrees clockwise,
         // by recording the result into the
         // new array m×n in size.
         // Sample Input:
         
-        //3 4
-        //11 12 13 14
-        //21 22 23 24
-        //31 32 33 34
-        // Sample Output:
-        
-        //31 21 11 
-        //32 22 12 
-        //33 23 13 
-        //34 24 14
+        // 3 4
+        // 11 12 13 14
+        // 21 22 23 24
+        // 31 32 33 34
+        // Sample Output:        
+        // 31 21 11 
+        // 32 22 12 
+        // 33 23 13 
+        // 34 24 14
         
         Scanner scanner = new Scanner(System.in);
 
