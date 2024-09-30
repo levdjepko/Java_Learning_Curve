@@ -6,13 +6,12 @@ class Scratch {
         Arrays.sort(A);
         
         int smallest = A[0];
-
         int totalCandy = 0;
         int increment = 1;
-        //then go over every element of the array and give candy
-        for(int i = 0; i < A.length; i++){
-            //smallest element gets one candy
-            if(A[i] > smallest){ // this element is bigger than before
+        // then go over every element of the array and give candy
+        for (int i = 0; i < A.length; i++){
+            // the smallest element gets one candy
+            if (A[i] > smallest){ // this element is bigger than before
                 increment++;
             }
             totalCandy += increment;
