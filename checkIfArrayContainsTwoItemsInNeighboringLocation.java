@@ -3,11 +3,12 @@ import java.util.Scanner;
 
 class Main {
     public static void main(String[] args) {
+        
         // Write a program that reads an unsorted array of integers 
         // and two numbers n and m. The program must check if n and m 
         // occur next to each other in the array (in any order).
         //
-        // * Input data format *
+        // Input data format:
         //
         // The first line contains the size of an array.
         // The second line contains elements of the array.
