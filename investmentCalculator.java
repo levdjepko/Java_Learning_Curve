@@ -4,6 +4,8 @@ import java.util.Scanner;
 public class Main {
 
     public static void main(String[] args) {
+        // The little app to estimate the investment portfolio performance over time.
+        // It is assumed that the return rate is default 7% per year
         Scanner in = new Scanner(System.in);
 
         System.out.print("Type in the amount of the initial investment: ");
