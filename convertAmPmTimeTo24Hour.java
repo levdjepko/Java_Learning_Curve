@@ -17,10 +17,12 @@ private static String timeConversion(String input) {
         } else {
             sb.append(hourString);
         }
+
         sb.append(":");
         sb.append(minutes);
         sb.append(":");
         sb.append(seconds);
+
         String result = sb.toString();
         return result;
     }
