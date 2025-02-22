@@ -3,7 +3,7 @@ import java.util.Scanner;
 class Main {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
-        // start coding here
+        // compare two strings, removing all the whitespace
         String first = scanner.nextLine();
         String second = scanner.nextLine();
         first = first.replaceAll("\\s+", "");
