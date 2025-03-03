@@ -5,7 +5,7 @@ Find common elements between two provided arrays and return them
 
 class Scratch {
     public static void main(String[] args) {
-        // NOTE: The following input values are used for testing your solution.
+        // NOTE: The following input values are used to test your solution.
         int[] array1A = {1, 3, 4, 6, 7, 9};
         int[] array2A = {1, 2, 4, 5, 9, 10};
         // commonElements(array1A, array2A) should return [1, 4, 9] (an array).
@@ -20,7 +20,7 @@ class Scratch {
     }
 
     
-    // NOTE: Remember to return an Integer array, not an int array.
+    // NOTE: Return an Integer array, not an int array.
     public static Integer[] commonElements(int[] array1, int[] array2) {
 
         ArrayList<Integer> resultSet = new ArrayList<Integer>(); // dynamic array
