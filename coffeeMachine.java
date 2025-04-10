@@ -5,7 +5,7 @@ import java.util.Scanner;
 public class CoffeeMachine {
     public static void main(String[] args) {        
 
-        // 4/6:
+        // part 4/6:
         Scanner scanner = new Scanner(System.in);
         // Initial amount of ingredients:
         int waterAmount = 400;
