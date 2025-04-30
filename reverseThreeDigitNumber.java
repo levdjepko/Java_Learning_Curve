@@ -2,8 +2,9 @@ import java.util.Scanner;
 
 class Main {
     public static void main(String[] args) {
+        // this program attempts to reverse the three-digit number
         Scanner scanner = new Scanner(System.in);
-        // put your code here
+        
         int initial = scanner.nextInt();
         int single = initial % 10; // last digit 1
         int decimal = (initial % 100 - single) / 10; // second digit 2
