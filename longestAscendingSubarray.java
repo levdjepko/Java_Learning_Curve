@@ -2,7 +2,7 @@ import java.util.Scanner;
 
 class Scratch {
     public static void main(String[] args) {
-        // find the longest ascending sequence
+        // Find the longest ascending sequence
         // 1 2 4 1 2 3 5 7 4 3
         Scanner scanner = new Scanner(System.in);
 
@@ -16,7 +16,7 @@ class Scratch {
         int left = 0;
         int right = 0;
         int lenAscending = -1;
-        // now iterate over array and find the longest ascending sequence
+        // now iterate over the array and find the longest ascending sequence
         for (int i = 1; i < length; i++) {
             if (array[i] > array[i-1]) {
                 right = i;
