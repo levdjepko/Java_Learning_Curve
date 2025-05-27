@@ -4,7 +4,7 @@ import java.util.Hashtable;
 
 public class scratch_4 {
     public static void main(String[] args) {
-        // NOTE: The following input values are used for testing your solution.
+        // NOTE: The following input values are used for testing the solution.
 
         // mostFrequent(array1) should return 1.
         int[] array1 = {1, 3, 1, 3, 2, 1};
@@ -24,11 +24,11 @@ public class scratch_4 {
 
     }
 
-    // Implement your solution below.
+    
     public static Integer mostFrequent(int[] givenArray) {
         Integer maxItem = null;
         int maxCountSoFar = 0;
-        //ALSO USE EDGE CASES FOR 0 and 1
+        // ALSO USE EDGE CASES FOR 0 and 1
         // use hashtable instead:
         HashMap<Integer, Integer> map = new HashMap<Integer, Integer>();
         //loop through every item in the array and keep track of them in a hashtable:
@@ -43,7 +43,7 @@ public class scratch_4 {
                     maxItem = givenArray[i];
                 }
             } else {
-                //hashTable doesn't contain this Key, yet
+                //hashTable doesn't contain this Key, put it in
                 map.put(givenArray[i], 1);
             }
         }
