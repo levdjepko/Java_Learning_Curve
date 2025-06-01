@@ -82,7 +82,6 @@ public class BST {
 
 
 
-    // Implement your function below.
     public static boolean isBST(TreeNode node) {
         return isBstHelper(node, null, null);
     }
